@@ -1,0 +1,6 @@
+Aluno -> Histórico Aluno -> Disciplina
+Aluno -> TCC -> Professor
+Professor -> Histórico Professor -> Disciplina
+Disciplina -> Matriz -> Curso
+Departamento -> Coordenação?: sem atributo... -> Professor
+
