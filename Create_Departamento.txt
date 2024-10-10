@@ -1,0 +1,7 @@
+CREATE (d01:Departamento {nome: 'Línguas'});
+CREATE (d02:Departamento {nome: 'Gestão'});
+CREATE (d03:Departamento {nome: 'Marketing'});
+CREATE (d04:Departamento {nome: 'Ciências Sociais e Jurídico'});
+CREATE (d05:Departamento {nome: 'Arquitetura'});
+CREATE (d06:Departamento {nome: 'Matemática'});
+CREATE (d07:Departamento {nome: 'Artes'});
