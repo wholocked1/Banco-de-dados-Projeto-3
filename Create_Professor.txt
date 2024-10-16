@@ -1,0 +1,11 @@
+CREATE (7358:Professor {nome: 'Glennis Cosens'});
+CREATE (3023:Professor {nome: 'Quinn Labitt'});
+CREATE (4568:Professor {nome: 'Wrennie Sealy'});
+CREATE (1673:Professor {nome: 'Guillermo Le Galle'});
+CREATE (3677:Professor {nome: 'Lucia Eaglesham'});
+CREATE (1793:Professor {nome: 'Billy Macconaghy'});
+CREATE (9711:Professor {nome: 'Bellina McGarahan'});
+CREATE (3477:Professor {nome: 'Dee Wallach'});
+CREATE (4481:Professor {nome: 'Jannelle Loines'});
+CREATE (5275:Professor {nome: 'Bar Britner'});
+CREATE (9852:Professor {nome: 'Pedro Souza'});
