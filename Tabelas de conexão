@@ -209,3 +209,54 @@ MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG112'}), CREATE(a)-[:FEZ
 MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG113'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.32}]->(m),
 MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG114'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.33}]->(m)
 
+prof --> tcc
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '3094'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3677}), (m:TCC{id_tcc: '7262'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3023}), (m:TCC{id_tcc: '2989'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '2283'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1793}), (m:TCC{id_tcc: '6476'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '1611'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '2973'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3677}), (m:TCC{id_tcc: '5380'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3677}), (m:TCC{id_tcc: '1030'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 5275}), (m:TCC{id_tcc: '5451'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '9118'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 9711}), (m:TCC{id_tcc: '8143'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '5178'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 5275}), (m:TCC{id_tcc: '2773'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '7977'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3477}), (m:TCC{id_tcc: '2766'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '2996'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3477}), (m:TCC{id_tcc: '4085'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1793}), (m:TCC{id_tcc: '9758'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3677}), (m:TCC{id_tcc: '7937'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '1773'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '9171'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3677}), (m:TCC{id_tcc: '6334'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '8344'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3677}), (m:TCC{id_tcc: '2767'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4568}), (m:TCC{id_tcc: '7630'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3677}), (m:TCC{id_tcc: '5547'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '6327'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1793}), (m:TCC{id_tcc: '1183'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '7372'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3477}), (m:TCC{id_tcc: '3993'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '8743'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '1107'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1673}), (m:TCC{id_tcc: '3751'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1673}), (m:TCC{id_tcc: '7193'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '1846'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '4251'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 3477}), (m:TCC{id_tcc: '1208'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '1572'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1673}), (m:TCC{id_tcc: '4594'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '5049'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1673}), (m:TCC{id_tcc: '5447'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 5275}), (m:TCC{id_tcc: '1544'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 4481}), (m:TCC{id_tcc: '5323'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1673}), (m:TCC{id_tcc: '3490'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 5275}), (m:TCC{id_tcc: '1962'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 1673}), (m:TCC{id_tcc: '4490'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '2210'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '1178'}) CREATE(a)-[:DEU]->(m);
+MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '4639'}) CREATE(a)-[:DEU]->(m);
