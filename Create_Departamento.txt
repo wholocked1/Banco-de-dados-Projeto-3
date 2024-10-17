@@ -1,7 +1,7 @@
-CREATE (d01:Departamento {nome: 'Línguas'});
-CREATE (d02:Departamento {nome: 'Gestão'});
-CREATE (d03:Departamento {nome: 'Marketing'});
-CREATE (d04:Departamento {nome: 'Ciências Sociais e Jurídico'});
-CREATE (d05:Departamento {nome: 'Arquitetura'});
-CREATE (d06:Departamento {nome: 'Matemática'});
-CREATE (d07:Departamento {nome: 'Artes'});
+CREATE (d01:Departamento {nome: 'Línguas', id_departamento: 1});
+CREATE (d02:Departamento {nome: 'Gestão', id_departamento: 2});
+CREATE (d03:Departamento {nome: 'Marketing', id_departamento: 3});
+CREATE (d04:Departamento {nome: 'Ciências Sociais e Jurídico', id_departamento: 4});
+CREATE (d05:Departamento {nome: 'Arquitetura', id_departamento: 5});
+CREATE (d06:Departamento {nome: 'Matemática', id_departamento: 6});
+CREATE (d07:Departamento {nome: 'Artes', id_departamento: 7});
