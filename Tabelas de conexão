@@ -260,3 +260,12 @@ MATCH(a:Professor{id_professor: 1673}), (m:TCC{id_tcc: '4490'}) CREATE(a)-[:DEU]
 MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '2210'}) CREATE(a)-[:DEU]->(m);
 MATCH(a:Professor{id_professor: 9852}), (m:TCC{id_tcc: '1178'}) CREATE(a)-[:DEU]->(m);
 MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '4639'}) CREATE(a)-[:DEU]->(m);
+
+PROF -> DEPARTAMENTO
+MATCH(a:Departamento{id_departamento: 1}), (m:Professor{id_professor: '7358'})  CREATE(a)-[:CHEFIADO_POR]->(m);
+MATCH(a:Departamento{id_departamento: 2}), (m:Professor{id_professor: '3023'})  CREATE(a)-[:CHEFIADO_POR]->(m);
+MATCH(a:Departamento{id_departamento: 3}), (m:Professor{id_professor: '9852'})  CREATE(a)-[:CHEFIADO_POR]->(m);
+MATCH(a:Departamento{id_departamento: 4}), (m:Professor{id_professor: '3677'})  CREATE(a)-[:CHEFIADO_POR]->(m);
+MATCH(a:Departamento{id_departamento: 5}), (m:Professor{id_professor: '9711'})  CREATE(a)-[:CHEFIADO_POR]->(m);
+MATCH(a:Departamento{id_departamento: 6}), (m:Professor{id_professor: '3477'})  CREATE(a)-[:CHEFIADO_POR]->(m);
+MATCH(a:Departamento{id_departamento: 7}), (m:Professor{id_professor: '5275'})  CREATE(a)-[:CHEFIADO_POR]->(m);
