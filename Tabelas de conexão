@@ -54,160 +54,160 @@ id_aluno                              titulo
 
 
 MATCH(a:Aluno{id_aluno: 8490}), (m:TCC{titulo: 'ipsum primis'}) CREATE(a)-[:FEZ]->(m);
-MATCH(a:Aluno{id_aluno: 7960}), (m:TCC{titulo: 'ut massa'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 3959}), (m:TCC{titulo: 'vel accumsan tellus nisi'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:TCC{titulo: 'felis sed interdum venenatis'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1540}), (m:TCC{titulo: 'porttitor pede'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 7994}), (m:TCC{titulo: 'enim in tempor turpis'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 6884}), (m:TCC{titulo: 'erat quisque erat eros'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1209}), (m:TCC{titulo: 'eget eros elementum'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 4272}), (m:TCC{titulo: 'nisl duis bibendum'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 5699}), (m:TCC{titulo: 'tellus nisi eu'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2997}), (m:TCC{titulo: 'quam turpis'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 4197}), (m:TCC{titulo: 'hac habitasse platea'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 9918}), (m:TCC{titulo: 'sapien dignissim vestibulum'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1995}), (m:TCC{titulo: 'luctus cum sociis'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:TCC{titulo: 'vivamus vestibulum sagittis sapien'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1454}), (m:TCC{titulo: 'cubilia curae'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:TCC{titulo: 'diam cras pellentesque volutpat'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 5244}), (m:TCC{titulo: 'pede posuere'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 4625}), (m:TCC{titulo: 'odio cras mi pede'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 4974}), (m:TCC{titulo: 'in ante vestibulum'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 8387}), (m:TCC{titulo: 'eleifend pede'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 8533}), (m:TCC{titulo: 'habitasse platea dictumst'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 4382}), (m:TCC{titulo: 'ante nulla justo aliquam'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 6630}), (m:TCC{titulo: 'eros viverra eget congue'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1439}), (m:TCC{titulo: 'ac nibh fusce lacus'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 8985}), (m:TCC{titulo: 'turpis sed'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 4451}), (m:TCC{titulo: 'pede lobortis ligula'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1280}), (m:TCC{titulo: 'eu pede'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1408}), (m:TCC{titulo: 'in leo'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 3964}), (m:TCC{titulo: 'ac diam'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2172}), (m:TCC{titulo: 'id sapien'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2880}), (m:TCC{titulo: 'curabitur convallis duis'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 7009}), (m:TCC{titulo: 'sed ante'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1611}), (m:TCC{titulo: 'in lacus'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 9988}), (m:TCC{titulo: 'dapibus nulla suscipit ligula'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1428}), (m:TCC{titulo: 'in imperdiet et'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2401}), (m:TCC{titulo: 'justo eu massa donec'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 6423}), (m:TCC{titulo: 'felis sed interdum venenatis'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 4252}), (m:TCC{titulo: 'lacus at velit'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1568}), (m:TCC{titulo: 'augue vestibulum ante'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 8557}), (m:TCC{titulo: 'et tempus'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 9590}), (m:TCC{titulo: 'sit amet sem fusce'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2405}), (m:TCC{titulo: 'rhoncus dui vel'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 9189}), (m:TCC{titulo: 'sagittis dui'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 6911}), (m:TCC{titulo: 'et eros vestibulum ac'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 8106}), (m:TCC{titulo: 'mauris eget'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 1577}), (m:TCC{titulo: 'fringilla rhoncus mauris enim'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 5698}), (m:TCC{titulo: 'in tempus sit'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 3756}), (m:TCC{titulo: 'interdum mauris ullamcorper'}), CREATE(a)-[:FEZ]->(m),
-MATCH(a:Aluno{id_aluno: 2357}), (m:TCC{titulo: 'ultricies eu'}), CREATE(a)-[:FEZ]->(m)
+MATCH(a:Aluno{id_aluno: 7960}), (m:TCC{titulo: 'ut massa'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 3959}), (m:TCC{titulo: 'vel accumsan tellus nisi'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:TCC{titulo: 'felis sed interdum venenatis'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1540}), (m:TCC{titulo: 'porttitor pede'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 7994}), (m:TCC{titulo: 'enim in tempor turpis'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 6884}), (m:TCC{titulo: 'erat quisque erat eros'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1209}), (m:TCC{titulo: 'eget eros elementum'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 4272}), (m:TCC{titulo: 'nisl duis bibendum'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 5699}), (m:TCC{titulo: 'tellus nisi eu'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2997}), (m:TCC{titulo: 'quam turpis'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 4197}), (m:TCC{titulo: 'hac habitasse platea'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 9918}), (m:TCC{titulo: 'sapien dignissim vestibulum'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1995}), (m:TCC{titulo: 'luctus cum sociis'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:TCC{titulo: 'vivamus vestibulum sagittis sapien'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1454}), (m:TCC{titulo: 'cubilia curae'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:TCC{titulo: 'diam cras pellentesque volutpat'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 5244}), (m:TCC{titulo: 'pede posuere'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 4625}), (m:TCC{titulo: 'odio cras mi pede'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 4974}), (m:TCC{titulo: 'in ante vestibulum'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 8387}), (m:TCC{titulo: 'eleifend pede'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 8533}), (m:TCC{titulo: 'habitasse platea dictumst'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 4382}), (m:TCC{titulo: 'ante nulla justo aliquam'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 6630}), (m:TCC{titulo: 'eros viverra eget congue'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1439}), (m:TCC{titulo: 'ac nibh fusce lacus'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 8985}), (m:TCC{titulo: 'turpis sed'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 4451}), (m:TCC{titulo: 'pede lobortis ligula'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1280}), (m:TCC{titulo: 'eu pede'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1408}), (m:TCC{titulo: 'in leo'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 3964}), (m:TCC{titulo: 'ac diam'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2172}), (m:TCC{titulo: 'id sapien'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2880}), (m:TCC{titulo: 'curabitur convallis duis'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 7009}), (m:TCC{titulo: 'sed ante'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1611}), (m:TCC{titulo: 'in lacus'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 9988}), (m:TCC{titulo: 'dapibus nulla suscipit ligula'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1428}), (m:TCC{titulo: 'in imperdiet et'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2401}), (m:TCC{titulo: 'justo eu massa donec'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 6423}), (m:TCC{titulo: 'felis sed interdum venenatis'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 4252}), (m:TCC{titulo: 'lacus at velit'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1568}), (m:TCC{titulo: 'augue vestibulum ante'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 8557}), (m:TCC{titulo: 'et tempus'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 9590}), (m:TCC{titulo: 'sit amet sem fusce'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2405}), (m:TCC{titulo: 'rhoncus dui vel'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 9189}), (m:TCC{titulo: 'sagittis dui'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 6911}), (m:TCC{titulo: 'et eros vestibulum ac'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 8106}), (m:TCC{titulo: 'mauris eget'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 1577}), (m:TCC{titulo: 'fringilla rhoncus mauris enim'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 5698}), (m:TCC{titulo: 'in tempus sit'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 3756}), (m:TCC{titulo: 'interdum mauris ullamcorper'}) CREATE(a)-[:FEZ]->(m);
+MATCH(a:Aluno{id_aluno: 2357}), (m:TCC{titulo: 'ultricies eu'}) CREATE(a)-[:FEZ]->(m)
 
 aluno -hist -> disciplina
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV101'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.89}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV102'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV103'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV104'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.78}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV105'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.39}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV106'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.58}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV107'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.8}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV108'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.4}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV109'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.92}]->(m),
-MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV110'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG101'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.8}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG102'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 8}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG103'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.6}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG104'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 10}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG105'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG106'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.2}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG107'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.7}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG108'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG109'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.77}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG110'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.55}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG111'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.78}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG112'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.67}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG113'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.99}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG114'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.55}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG201'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG202'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.7}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG203'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.47}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG204'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.87}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG205'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG206'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.87}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG207'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.88}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG208'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.77}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG209'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.88}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG210'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.24}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG211'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.31}]->(m),
-MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG212'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.11}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR101'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR102'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.8}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR103'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 9.5}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR104'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.99}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR105'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.99}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR106'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 7.58}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR107'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.88}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR108'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.75}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR109'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.85}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR110'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.98}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR111'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 9.95}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR112'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.97}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR113'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.67}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR114'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR201'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR202'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.87}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR203'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.77}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR204'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.12}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR205'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.25}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR206'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.47}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR207'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.78}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR301'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR302'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.66}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR303'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.26}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR304'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.96}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR305'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.66}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR306'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.33}]->(m),
-MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR307'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI101'}), CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 6}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI102'}), CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 8}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI103'}), CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 7.6}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI104'}), CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 5.55}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI105'}), CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 6.98}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI201'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.32}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI202'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 9.72}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI203'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.65}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI204'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 7.77}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI205'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.65}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI206'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI207'}), CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.55}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI301'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.2}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI302'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI303'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI304'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 8.65}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI305'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI306'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 8.98}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI307'}), CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.78}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI401'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.9}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI402'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI403'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI404'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI405'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.8}]->(m),
-MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI406'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG101'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG102'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG103'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.9}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG104'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.7}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG105'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.55}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG106'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.88}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG107'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.99}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG108'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.98}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG109'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.5}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG110'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.4}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG111'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.12}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG112'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.12}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG113'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.32}]->(m),
-MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG114'}), CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.33}]->(m)
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV101'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.89}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV102'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV103'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV104'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.78}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV105'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.39}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV106'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.58}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV107'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.8}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV108'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.4}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV109'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.92}]->(m);
+MATCH(a:Aluno{id_aluno: 8490}), (m:Disciplina{codigo: 'AV110'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG101'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.8}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG102'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 8}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG103'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.6}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG104'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 10}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG105'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG106'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.2}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG107'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.7}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG108'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG109'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.77}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG110'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.55}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG111'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.78}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG112'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.67}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG113'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.99}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG114'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.55}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG201'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG202'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.7}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG203'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.47}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG204'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.87}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG205'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG206'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.87}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG207'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.88}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG208'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.77}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG209'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.88}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG210'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.24}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG211'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.31}]->(m);
+MATCH(a:Aluno{id_aluno: 2918}), (m:Disciplina{codigo: 'PG212'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.11}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR101'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR102'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.8}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR103'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 9.5}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR104'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.99}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR105'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.99}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR106'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 7.58}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR107'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.88}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR108'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.75}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR109'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.85}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR110'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.98}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR111'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 9.95}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR112'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.97}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR113'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5.67}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR114'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR201'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR202'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7.87}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR203'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.77}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR204'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.12}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR205'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.25}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR206'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.47}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR207'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5.78}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR301'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR302'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.66}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR303'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.26}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR304'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.96}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR305'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.66}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR306'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.33}]->(m);
+MATCH(a:Aluno{id_aluno: 7960}), (m:Disciplina{codigo: 'MR307'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI101'}) CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 6}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI102'}) CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 8}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI103'}) CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 7.6}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI104'}) CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 5.55}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI105'}) CREATE(a)-[:FEZ{semestre:2, ano: 2022, nota: 6.98}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI201'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.32}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI202'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 9.72}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI203'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.65}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI204'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 7.77}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI205'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 8.65}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI206'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 5}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI207'}) CREATE(a)-[:FEZ{semestre:1, ano: 2023, nota: 6.55}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI301'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6.2}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI302'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 7}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI303'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 5}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI304'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 8.65}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI305'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 6}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI306'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 8.98}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI307'}) CREATE(a)-[:FEZ{semestre:2, ano: 2023, nota: 9.78}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI401'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.9}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI402'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI403'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI404'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI405'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.8}]->(m);
+MATCH(a:Aluno{id_aluno: 1530}), (m:Disciplina{codigo: 'DI406'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG101'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 10}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG102'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG103'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.9}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG104'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.7}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG105'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.55}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG106'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.88}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG107'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.99}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG108'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.98}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG109'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.5}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG110'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 5.4}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG111'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 9.12}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG112'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 8.12}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG113'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 6.32}]->(m);
+MATCH(a:Aluno{id_aluno: 2572}), (m:Disciplina{codigo: 'PG114'}) CREATE(a)-[:FEZ{semestre:1, ano: 2024, nota: 7.33}]->(m)
 
 prof --> tcc
 MATCH(a:Professor{id_professor: 7358}), (m:TCC{id_tcc: '3094'}) CREATE(a)-[:DEU]->(m);
