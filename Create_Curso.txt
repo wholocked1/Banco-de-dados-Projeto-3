@@ -1,4 +1,4 @@
-CREATE (c01:Curso {nome: 'Artes', duracao: 1});
-CREATE (c02:Curso {nome: 'Gestão', duracao: 2});
-CREATE (c03:Curso {nome: 'Marketing', duracao: 3});
-CREATE (c04:Curso {nome: 'Arquitetura', duracao: 4});
+CREATE (c01:Curso {nome: 'Artes', duracao: 1, id_curso: 1});
+CREATE (c02:Curso {nome: 'Gestão', duracao: 2, id_curso: 2});
+CREATE (c03:Curso {nome: 'Marketing', duracao: 3, id_curso: 3});
+CREATE (c04:Curso {nome: 'Arquitetura', duracao: 4, id_curso: 4});
