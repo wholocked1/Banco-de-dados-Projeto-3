@@ -53,7 +53,7 @@ id_aluno                              titulo
 49     2357                        ultricies eu
 
 
-MATCH(a:Aluno{id_aluno: 8490}), (m:TCC{titulo: 'ipsum primis'}), CREATE(a)-[:FEZ]->(m),
+MATCH(a:Aluno{id_aluno: 8490}), (m:TCC{titulo: 'ipsum primis'}) CREATE(a)-[:FEZ]->(m);
 MATCH(a:Aluno{id_aluno: 7960}), (m:TCC{titulo: 'ut massa'}), CREATE(a)-[:FEZ]->(m),
 MATCH(a:Aluno{id_aluno: 3959}), (m:TCC{titulo: 'vel accumsan tellus nisi'}), CREATE(a)-[:FEZ]->(m),
 MATCH(a:Aluno{id_aluno: 1530}), (m:TCC{titulo: 'felis sed interdum venenatis'}), CREATE(a)-[:FEZ]->(m),
