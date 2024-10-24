@@ -1,7 +1,0 @@
-Aluno --[Histórico Aluno]--> Disciplina
-Aluno -- fez --> TCC <-- orientador -- Professor
-Professor -- [Histórico Professor] --> Disciplina
-Disciplina -- [Matriz] --> Curso
-Departamento -- [Coordenação?: sem atributo...] --> Professor
-
-Esquece isso.......
